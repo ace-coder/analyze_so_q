@@ -60,32 +60,54 @@ def getTextFromAnswers(q_id):
     return returnText
 
 
+def getDocumentForTags(query):
+    cur.execute(query)
+    texts = []
+    for row in cur:
+        title = row[1]
+        q_text = extractTextFromHTML(row[3])
+        texts.append(title);
+        texts.append(q_text);
+        tags = re.findall(r'<(.+?)>', str(row[2]))
+        if (row[4] is not None and int(row[4]) > 0):
+            a_text = getTextFromAnswers(row[0])
+            texts.extend(a_text)
+    return texts;
 
-query = "SELECT id, title, tags, body, answer_count FROM posts WHERE post_type_id = 1 AND (tags like '%<java-ee>%' or tags like '%<java>%') limit 100"
-cur.execute(query)
-# java_questions = cur.fetchall()
 
-java_texts = []
-for row in cur:
-    title = row[1]
-    q_text = extractTextFromHTML(row[3])
-    java_texts.append(title);
-    java_texts.append(q_text);
-    tags = re.findall(r'<(.+?)>', str(row[2]))
-    if(row[4] is not None and int(row[4]) > 0):
-        a_text = getTextFromAnswers(row[0])
-        java_texts.extend(a_text)
+# java_tags = ["<java>", "<java-ee>"];
+query = "SELECT id, title, tags, body, answer_count FROM posts WHERE post_type_id = 1 AND (tags like '%<java-ee>%' or tags like '%<java>%')"
+java_texts = getDocumentForTags(query);
+
+query = "SELECT id, title, tags, body, answer_count FROM posts WHERE post_type_id = 1 AND (tags like '%<python>%')"
+python_texts = getDocumentForTags(query);
+
+query = "SELECT id, title, tags, body, answer_count FROM posts WHERE post_type_id = 1 AND (tags like '%<android>%')"
+android_texts = getDocumentForTags(query);
+
+query = "SELECT id, title, tags, body, answer_count FROM posts WHERE post_type_id = 1 AND (tags like '%<css>%' or tags like '%<css3>%')"
+css_texts = getDocumentForTags(query);
+
+query = "SELECT id, title, tags, body, answer_count FROM posts WHERE post_type_id = 1 AND (tags like '%<sql>%' or tags like '%<mysql>%' or tags like '%<sql-server>%' or tags like '%<postgresql>%' or tags like '%<databases>%')"
+sql_texts = getDocumentForTags(query);
+
+query = "SELECT id, title, tags, body, answer_count FROM posts WHERE post_type_id = 1 AND (tags like '%<git>%' or tags like '%<mercurial>%' or tags like '%<svn>%')"
+vc_texts = getDocumentForTags(query);
+
+query = "SELECT id, title, tags, body, answer_count FROM posts WHERE post_type_id = 1 AND (tags like '%<ant>%' or tags like '%<maven>%')"
+build_texts = getDocumentForTags(query);
 
 cur.close()
 
+doc_set = [java_texts, python_texts, android_texts, css_texts, sql_texts, vc_texts, build_texts]
 
 # list for tokenized documents in loop
 texts = []
 
 # loop through document list
-for i in java_texts:
+for i in doc_set:
     # clean and tokenize document string
-    raw = i.lower()
+    raw = " ".join(i).lower()
     tokens = tokenizer.tokenize(raw)
 
     # remove stop words from tokens
@@ -106,9 +128,9 @@ dictionary = corpora.Dictionary(texts)
 corpus = [dictionary.doc2bow(text) for text in texts]
 
 # generate LDA model
-ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics=15, id2word=dictionary, passes=1000)
+ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics=150, id2word=dictionary, passes=2000)
 
-for topic in ldamodel.show_topics(num_topics=15, formatted=False, num_words=7):
+for topic in ldamodel.show_topics(num_topics=150, formatted=False, num_words=8):
     # print ("Topic #", topic[0], ":",)
     # topic[1].sort(key=operator.itemgetter(1), reverse=True)
     lst = [i[0] for i in topic[1] if len(i[0]) > 1]
