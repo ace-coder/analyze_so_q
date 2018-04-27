@@ -43,6 +43,8 @@ for key, value in dic_query.items():
     d[key] = [i * 100 / sum(results[0]) for i in results[0]]
 
 df = pd.DataFrame(d, index=['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'])
+df = df[list(dic_query.keys())]
+
 # df.loc['sum'] = df.sum()
 
 print (df.to_string())
