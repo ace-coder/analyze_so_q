@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5e62a0e-fc9b-4db0-905d-642e14f86cd3" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/hobby_or_serious.py" />
       <change beforePath="" afterPath="$PROJECT_DIR$/lda_code_text_topics.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/analyze_stackoverflow.iml" afterPath="$PROJECT_DIR$/.idea/analyze_stackoverflow.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/lda_modeling_from_db.py" afterPath="$PROJECT_DIR$/lda_question_concepts.py" />
+      <change beforePath="$PROJECT_DIR$/lda_question_concepts.py" afterPath="$PROJECT_DIR$/lda_question_concepts.py" />
+      <change beforePath="$PROJECT_DIR$/lda_test.py" afterPath="$PROJECT_DIR$/lda_test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,17 +18,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/analyze_stackoverflow$lda_question_concepts.coverage" NAME="lda_question_concepts Coverage Results" MODIFIED="1524695831486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/analyze_stackoverflow$dbconnect.coverage" NAME="dbconnect Coverage Results" MODIFIED="1524497608416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analyze_stackoverflow$lda_test.coverage" NAME="lda_test Coverage Results" MODIFIED="1524525314963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/analyze_stackoverflow$hobby_or_serious.coverage" NAME="hobby_or_serious Coverage Results" MODIFIED="1524791865593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/analyze_stackoverflow$lda_test.coverage" NAME="lda_test Coverage Results" MODIFIED="1524695184496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/analyze_stackoverflow$lda_modeling_from_db.coverage" NAME="lda_modeling_from_db Coverage Results" MODIFIED="1524619024452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/analyze_stackoverflow$lda_test2.coverage" NAME="lda_test2 Coverage Results" MODIFIED="1524702770531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="lda_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lda_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="45" />
+            <state relative-caret-position="595">
+              <caret line="50" column="94" lean-forward="false" selection-start-line="50" selection-start-column="94" selection-end-line="50" selection-end-column="94" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -46,29 +53,69 @@
         <entry file="file://$PROJECT_DIR$/dbconnect.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+              <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lda_question_concepts.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lda_question_concepts.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lda_question_concepts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="93" column="163" lean-forward="false" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="163" />
+            <state relative-caret-position="193">
+              <caret line="70" column="25" lean-forward="false" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="25" />
               <folding>
                 <element signature="e#18#37#0" expanded="true" />
-                <marker date="1524620240695" expanded="true" signature="1348:1388" ph="select body posts" />
-                <marker date="1524620240695" expanded="true" signature="1348:1389" ph="select body posts" />
-                <marker date="1524620240695" expanded="true" signature="1348:1391" ph="select body posts" />
-                <marker date="1524620240695" expanded="true" signature="2058:2188" ph="SELECT id, t... posts" />
-                <marker date="1524620240695" expanded="true" signature="2240:2345" ph="SELECT id, t... posts" />
-                <marker date="1524620240695" expanded="true" signature="2399:2505" ph="SELECT id, t... posts" />
-                <marker date="1524620240695" expanded="true" signature="2560:2686" ph="SELECT id, t... posts" />
-                <marker date="1524620240695" expanded="true" signature="2737:2953" ph="SELECT id, t... posts" />
-                <marker date="1524620240695" expanded="true" signature="3004:3158" ph="SELECT id, t... posts" />
-                <marker date="1524620240695" expanded="true" signature="3208:3335" ph="SELECT id, t... posts" />
+                <marker date="1524695824597" expanded="true" signature="1350:1390" ph="select body posts" />
+                <marker date="1524695824597" expanded="true" signature="1350:1391" ph="select body posts" />
+                <marker date="1524695824597" expanded="true" signature="1350:1393" ph="select body posts" />
+                <marker date="1524695824597" expanded="true" signature="2060:2190" ph="SELECT id, t... posts" />
+                <marker date="1524695824597" expanded="true" signature="2060:2200" ph="SELECT id, t... posts" />
+                <marker date="1524695824597" expanded="true" signature="2252:2357" ph="SELECT id, t... posts" />
+                <marker date="1524695824597" expanded="true" signature="2252:2367" ph="SELECT id, t... posts" />
+                <marker date="1524695824597" expanded="true" signature="2421:2527" ph="SELECT id, t... posts" />
+                <marker date="1524695824597" expanded="true" signature="2421:2537" ph="SELECT id, t... posts" />
+                <marker date="1524695824597" expanded="true" signature="2592:2718" ph="SELECT id, t... posts" />
+                <marker date="1524695824597" expanded="true" signature="2592:2728" ph="SELECT id, t... posts" />
+                <marker date="1524695824597" expanded="true" signature="2779:2995" ph="SELECT id, t... posts" />
+                <marker date="1524695824597" expanded="true" signature="2779:3005" ph="SELECT id, t... posts" />
+                <marker date="1524695824597" expanded="true" signature="3056:3210" ph="SELECT id, t... posts" />
+                <marker date="1524695824597" expanded="true" signature="3056:3220" ph="SELECT id, t... posts" />
+                <marker date="1524695824597" expanded="true" signature="3270:3397" ph="SELECT id, t... posts" />
+                <marker date="1524695824597" expanded="true" signature="3270:3407" ph="SELECT id, t... posts" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lda_test2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lda_test2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="51" column="8" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="8" />
+              <folding>
+                <element signature="e#18#37#0" expanded="true" />
+                <marker date="1524703360082" expanded="true" signature="1351:1392" ph="select body posts" />
+                <marker date="1524703360082" expanded="true" signature="2020:2161" ph="SELECT id, t... posts" />
+                <marker date="1524703360082" expanded="true" signature="2213:2329" ph="SELECT id, t... posts" />
+                <marker date="1524703360082" expanded="true" signature="2383:2500" ph="SELECT id, t... posts" />
+                <marker date="1524703360082" expanded="true" signature="2555:2692" ph="SELECT id, t... posts" />
+                <marker date="1524703360082" expanded="true" signature="2743:2970" ph="SELECT id, t... posts" />
+                <marker date="1524703360082" expanded="true" signature="3021:3186" ph="SELECT id, t... posts" />
+                <marker date="1524703360082" expanded="true" signature="3236:3374" ph="SELECT id, t... posts" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hobby_or_serious.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hobby_or_serious.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+              <folding>
+                <element signature="e#18#33#0" expanded="true" />
+                <marker date="1524791863088" expanded="true" signature="195:802" ph="select count... posts" />
               </folding>
             </state>
           </provider>
@@ -77,7 +124,7 @@
       <file leaf-file-name="lda_code_text_topics.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lda_code_text_topics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
+            <state relative-caret-position="38">
               <caret line="78" column="149" lean-forward="false" selection-start-line="78" selection-start-column="139" selection-end-line="78" selection-end-column="149" />
               <folding>
                 <element signature="e#18#37#0" expanded="true" />
@@ -88,16 +135,6 @@
                 <marker date="1524619465142" expanded="true" signature="3056:3220" ph="SELECT id, t... posts" />
                 <marker date="1524619465142" expanded="true" signature="3270:3407" ph="SELECT id, t... posts" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files (x86)/Python36-32/Lib/codecs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="323" column="0" lean-forward="false" selection-start-line="323" selection-start-column="0" selection-end-line="323" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -116,6 +153,8 @@
       <find>caus</find>
       <find>wordnet</find>
       <find>config</find>
+      <find>pandas</find>
+      <find>all</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -126,12 +165,14 @@
       <list>
         <option value="$PROJECT_DIR$/database.ini" />
         <option value="$PROJECT_DIR$/dbconfigparse.py" />
-        <option value="$PROJECT_DIR$/lda_test.py" />
         <option value="$PROJECT_DIR$/dbconnect.py" />
         <option value="$PROJECT_DIR$/lda_modeling_from_db.py" />
         <option value="$PROJECT_DIR$/lda_code_text_topics.py" />
         <option value="$PROJECT_DIR$/lda_question_concepts" />
+        <option value="$PROJECT_DIR$/lda_test.py" />
         <option value="$PROJECT_DIR$/lda_question_concepts.py" />
+        <option value="$PROJECT_DIR$/lda_test2.py" />
+        <option value="$PROJECT_DIR$/hobby_or_serious.py" />
       </list>
     </option>
   </component>
@@ -162,7 +203,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,6 +215,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lda_modeling_from_db">
+  <component name="RunManager" selected="Python.hobby_or_serious">
     <configuration name="dbconnect" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -214,7 +255,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="lda_modeling_from_db" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="hobby_or_serious" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -227,7 +268,26 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="analyze_stackoverflow" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\Study Material\term project\analyze_stackoverflow\lda_question_concepts.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hobby_or_serious.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="lda_question_concepts" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="analyze_stackoverflow" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lda_question_concepts.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -252,16 +312,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="3">
+    <configuration name="lda_test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="analyze_stackoverflow" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lda_test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.lda_test" />
       <item index="1" class="java.lang.String" itemvalue="Python.dbconnect" />
-      <item index="2" class="java.lang.String" itemvalue="Python.lda_modeling_from_db" />
+      <item index="2" class="java.lang.String" itemvalue="Python.lda_question_concepts" />
+      <item index="3" class="java.lang.String" itemvalue="Python.lda_test2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.hobby_or_serious" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.lda_modeling_from_db" />
-        <item index="1" class="java.lang.String" itemvalue="Python.lda_test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.dbconnect" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.hobby_or_serious" />
+        <item index="1" class="java.lang.String" itemvalue="Python.lda_test2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.lda_question_concepts" />
+        <item index="3" class="java.lang.String" itemvalue="Python.lda_test" />
+        <item index="4" class="java.lang.String" itemvalue="Python.dbconnect" />
       </list>
     </recent_temporary>
   </component>
@@ -286,26 +369,27 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23871462" sideWeight="0.5015625" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.4984375" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23871462" sideWeight="0.5015625" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289977" sideWeight="0.4984375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3986228" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976282" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3978577" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -320,25 +404,114 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lda_question_concepts.py</url>
-          <line>136</line>
+          <line>137</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lda_question_concepts.py</url>
-          <line>99</line>
-          <option name="timeStamp" value="18" />
+          <line>131</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lda_test.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lda_test.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lda_question_concepts.py</url>
+          <line>101</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lda_question_concepts.py</url>
           <line>109</line>
-          <option name="timeStamp" value="19" />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lda_test2.py</url>
+          <line>106</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="38" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lda_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbconnect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lda_code_text_topics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="78" column="149" lean-forward="false" selection-start-line="78" selection-start-column="139" selection-end-line="78" selection-end-column="149" />
+          <folding>
+            <element signature="e#18#37#0" expanded="true" />
+            <marker date="1524619465142" expanded="true" signature="1350:1391" ph="select body posts" />
+            <marker date="1524619465142" expanded="true" signature="2060:2200" ph="SELECT id, t... posts" />
+            <marker date="1524619465142" expanded="true" signature="2252:2367" ph="SELECT id, t... posts" />
+            <marker date="1524619465142" expanded="true" signature="2592:2728" ph="SELECT id, t... posts" />
+            <marker date="1524619465142" expanded="true" signature="3056:3220" ph="SELECT id, t... posts" />
+            <marker date="1524619465142" expanded="true" signature="3270:3407" ph="SELECT id, t... posts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lda_question_concepts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="96" column="148" lean-forward="false" selection-start-line="96" selection-start-column="148" selection-end-line="96" selection-end-column="148" />
+          <folding>
+            <element signature="e#18#37#0" expanded="true" />
+            <marker date="1524695824597" expanded="true" signature="1350:1390" ph="select body posts" />
+            <marker date="1524695824597" expanded="true" signature="1350:1391" ph="select body posts" />
+            <marker date="1524695824597" expanded="true" signature="1350:1393" ph="select body posts" />
+            <marker date="1524695824597" expanded="true" signature="2060:2190" ph="SELECT id, t... posts" />
+            <marker date="1524695824597" expanded="true" signature="2060:2200" ph="SELECT id, t... posts" />
+            <marker date="1524695824597" expanded="true" signature="2252:2357" ph="SELECT id, t... posts" />
+            <marker date="1524695824597" expanded="true" signature="2252:2367" ph="SELECT id, t... posts" />
+            <marker date="1524695824597" expanded="true" signature="2421:2527" ph="SELECT id, t... posts" />
+            <marker date="1524695824597" expanded="true" signature="2421:2537" ph="SELECT id, t... posts" />
+            <marker date="1524695824597" expanded="true" signature="2592:2718" ph="SELECT id, t... posts" />
+            <marker date="1524695824597" expanded="true" signature="2592:2728" ph="SELECT id, t... posts" />
+            <marker date="1524695824597" expanded="true" signature="2779:2995" ph="SELECT id, t... posts" />
+            <marker date="1524695824597" expanded="true" signature="2779:3005" ph="SELECT id, t... posts" />
+            <marker date="1524695824597" expanded="true" signature="3056:3210" ph="SELECT id, t... posts" />
+            <marker date="1524695824597" expanded="true" signature="3056:3220" ph="SELECT id, t... posts" />
+            <marker date="1524695824597" expanded="true" signature="3270:3397" ph="SELECT id, t... posts" />
+            <marker date="1524695824597" expanded="true" signature="3270:3407" ph="SELECT id, t... posts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -351,7 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="847">
           <caret line="672" column="0" lean-forward="false" selection-start-line="672" selection-start-column="0" selection-end-line="672" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -374,32 +546,15 @@
     <entry file="file://$PROJECT_DIR$/dbconnect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="323" column="0" lean-forward="false" selection-start-line="323" selection-start-column="0" selection-end-line="323" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lda_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/codecs.py" />
     <entry file="file://$PROJECT_DIR$/lda_code_text_topics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
+        <state relative-caret-position="38">
           <caret line="78" column="149" lean-forward="false" selection-start-line="78" selection-start-column="139" selection-end-line="78" selection-end-column="149" />
           <folding>
             <element signature="e#18#37#0" expanded="true" />
@@ -415,20 +570,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lda_question_concepts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="93" column="163" lean-forward="false" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="163" />
+        <state relative-caret-position="193">
+          <caret line="70" column="25" lean-forward="false" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="25" />
           <folding>
             <element signature="e#18#37#0" expanded="true" />
-            <marker date="1524620240695" expanded="true" signature="1348:1388" ph="select body posts" />
-            <marker date="1524620240695" expanded="true" signature="1348:1389" ph="select body posts" />
-            <marker date="1524620240695" expanded="true" signature="1348:1391" ph="select body posts" />
-            <marker date="1524620240695" expanded="true" signature="2058:2188" ph="SELECT id, t... posts" />
-            <marker date="1524620240695" expanded="true" signature="2240:2345" ph="SELECT id, t... posts" />
-            <marker date="1524620240695" expanded="true" signature="2399:2505" ph="SELECT id, t... posts" />
-            <marker date="1524620240695" expanded="true" signature="2560:2686" ph="SELECT id, t... posts" />
-            <marker date="1524620240695" expanded="true" signature="2737:2953" ph="SELECT id, t... posts" />
-            <marker date="1524620240695" expanded="true" signature="3004:3158" ph="SELECT id, t... posts" />
-            <marker date="1524620240695" expanded="true" signature="3208:3335" ph="SELECT id, t... posts" />
+            <marker date="1524695824597" expanded="true" signature="1350:1390" ph="select body posts" />
+            <marker date="1524695824597" expanded="true" signature="1350:1391" ph="select body posts" />
+            <marker date="1524695824597" expanded="true" signature="1350:1393" ph="select body posts" />
+            <marker date="1524695824597" expanded="true" signature="2060:2190" ph="SELECT id, t... posts" />
+            <marker date="1524695824597" expanded="true" signature="2060:2200" ph="SELECT id, t... posts" />
+            <marker date="1524695824597" expanded="true" signature="2252:2357" ph="SELECT id, t... posts" />
+            <marker date="1524695824597" expanded="true" signature="2252:2367" ph="SELECT id, t... posts" />
+            <marker date="1524695824597" expanded="true" signature="2421:2527" ph="SELECT id, t... posts" />
+            <marker date="1524695824597" expanded="true" signature="2421:2537" ph="SELECT id, t... posts" />
+            <marker date="1524695824597" expanded="true" signature="2592:2718" ph="SELECT id, t... posts" />
+            <marker date="1524695824597" expanded="true" signature="2592:2728" ph="SELECT id, t... posts" />
+            <marker date="1524695824597" expanded="true" signature="2779:2995" ph="SELECT id, t... posts" />
+            <marker date="1524695824597" expanded="true" signature="2779:3005" ph="SELECT id, t... posts" />
+            <marker date="1524695824597" expanded="true" signature="3056:3210" ph="SELECT id, t... posts" />
+            <marker date="1524695824597" expanded="true" signature="3056:3220" ph="SELECT id, t... posts" />
+            <marker date="1524695824597" expanded="true" signature="3270:3397" ph="SELECT id, t... posts" />
+            <marker date="1524695824597" expanded="true" signature="3270:3407" ph="SELECT id, t... posts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="323" column="0" lean-forward="false" selection-start-line="323" selection-start-column="0" selection-end-line="323" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lda_test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="8" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="8" />
+          <folding>
+            <element signature="e#18#37#0" expanded="true" />
+            <marker date="1524703360082" expanded="true" signature="1351:1392" ph="select body posts" />
+            <marker date="1524703360082" expanded="true" signature="2020:2161" ph="SELECT id, t... posts" />
+            <marker date="1524703360082" expanded="true" signature="2213:2329" ph="SELECT id, t... posts" />
+            <marker date="1524703360082" expanded="true" signature="2383:2500" ph="SELECT id, t... posts" />
+            <marker date="1524703360082" expanded="true" signature="2555:2692" ph="SELECT id, t... posts" />
+            <marker date="1524703360082" expanded="true" signature="2743:2970" ph="SELECT id, t... posts" />
+            <marker date="1524703360082" expanded="true" signature="3021:3186" ph="SELECT id, t... posts" />
+            <marker date="1524703360082" expanded="true" signature="3236:3374" ph="SELECT id, t... posts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lda_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="50" column="94" lean-forward="false" selection-start-line="50" selection-start-column="94" selection-end-line="50" selection-end-column="94" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hobby_or_serious.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+          <folding>
+            <element signature="e#18#33#0" expanded="true" />
+            <marker date="1524791863088" expanded="true" signature="195:802" ph="select count... posts" />
           </folding>
         </state>
       </provider>
