@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5e62a0e-fc9b-4db0-905d-642e14f86cd3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/create_documents.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lda_code_text_topics.R" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lda_question_concepts.R" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/lda_question_concepts.py" afterPath="$PROJECT_DIR$/lda_question_concepts.py" />
       <change beforePath="$PROJECT_DIR$/lda_test.py" afterPath="$PROJECT_DIR$/lda_test.py" />
     </list>
@@ -42,8 +38,8 @@
       <file leaf-file-name="lda_question_concepts.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lda_question_concepts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1615">
-              <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+            <state relative-caret-position="680">
+              <caret line="40" column="43" lean-forward="false" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
               <folding>
                 <element signature="e#18#37#0" expanded="true" />
                 <marker date="1524695824597" expanded="true" signature="1350:1390" ph="select body posts" />
@@ -802,8 +798,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lda_question_concepts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+        <state relative-caret-position="680">
+          <caret line="40" column="43" lean-forward="false" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
           <folding>
             <element signature="e#18#37#0" expanded="true" />
             <marker date="1524695824597" expanded="true" signature="1350:1390" ph="select body posts" />
