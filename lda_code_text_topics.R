@@ -51,7 +51,7 @@ corpusDTM <- DocumentTermMatrix(corpus)
 dim(corpusDTM)
 
 #compute LDA with 30 topics
-lda <- LDA(corpusDTM, k = 30)
+lda <- LDA(corpusDTM, k = 20)
 lda
 
 #obtain the most likely topic for each document
@@ -64,7 +64,7 @@ write.table(as.data.frame(Topic), "output/CodeTopic.txt", sep="\t")
 Terms <- terms(lda, 7)
 # View(t(Terms[,1:30]))
 
-write.table(t(Terms[,1:30]), "output/CodeTerms.txt", sep="\t")
+write.table(t(Terms[,1:20]), "output/CodeTerms.txt", sep="\t")
 
 # r <- cbind(as.vector(data$Title), as.vector(data$Subject), as.vector(data$Topic.Code), as.vector(terms[topics]))
 # hr <- head(r)

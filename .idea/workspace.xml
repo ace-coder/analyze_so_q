@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5e62a0e-fc9b-4db0-905d-642e14f86cd3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/lda_code_text_topics.R" afterPath="$PROJECT_DIR$/lda_code_text_topics.R" />
       <change beforePath="$PROJECT_DIR$/lda_question_concepts.py" afterPath="$PROJECT_DIR$/lda_question_concepts.py" />
       <change beforePath="$PROJECT_DIR$/lda_test.py" afterPath="$PROJECT_DIR$/lda_test.py" />
+      <change beforePath="$PROJECT_DIR$/output/CodeTerms.txt" afterPath="$PROJECT_DIR$/output/CodeTerms.txt" />
+      <change beforePath="$PROJECT_DIR$/output/CodeTopic.txt" afterPath="$PROJECT_DIR$/output/CodeTopic.txt" />
+      <change beforePath="$PROJECT_DIR$/text_files/BuildTools.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/text_files/CSS.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/text_files/Python.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/text_files/SQL.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/text_files/VCS.txt" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,8 +23,8 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/analyze_stackoverflow$lda_question_concepts.coverage" NAME="lda_question_concepts Coverage Results" MODIFIED="1524695831486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/analyze_stackoverflow$dbconnect.coverage" NAME="dbconnect Coverage Results" MODIFIED="1524497608416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analyze_stackoverflow$hobby_or_serious.coverage" NAME="hobby_or_serious Coverage Results" MODIFIED="1524792572868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/analyze_stackoverflow$create_documents.coverage" NAME="create_documents Coverage Results" MODIFIED="1525269973274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/analyze_stackoverflow$hobby_or_serious.coverage" NAME="hobby_or_serious Coverage Results" MODIFIED="1525298024671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/analyze_stackoverflow$lda_test.coverage" NAME="lda_test Coverage Results" MODIFIED="1524695184496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/analyze_stackoverflow$lda_modeling_from_db.coverage" NAME="lda_modeling_from_db Coverage Results" MODIFIED="1524619024452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/analyze_stackoverflow$lda_test2.coverage" NAME="lda_test2 Coverage Results" MODIFIED="1525266741729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -35,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lda_question_concepts.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lda_question_concepts.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lda_question_concepts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="43" lean-forward="false" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+            <state relative-caret-position="306">
+              <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
               <folding>
                 <element signature="e#18#37#0" expanded="true" />
                 <marker date="1524695824597" expanded="true" signature="1350:1390" ph="select body posts" />
@@ -64,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lda_test2.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="lda_test2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lda_test2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7">
-              <caret line="127" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
+            <state relative-caret-position="160">
+              <caret line="146" column="0" lean-forward="true" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
               <folding>
                 <element signature="e#18#37#0" expanded="true" />
                 <marker date="1525266731214" expanded="true" signature="1825:1866" ph="select body posts" />
@@ -95,8 +103,8 @@
       <file leaf-file-name="LDA.R" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LDA.R">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="43" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+            <state relative-caret-position="317">
+              <caret line="48" column="39" lean-forward="true" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -115,8 +123,8 @@
       <file leaf-file-name="lda_code_text_topics.R" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lda_code_text_topics.R">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="52" column="27" lean-forward="true" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+            <state relative-caret-position="594">
+              <caret line="63" column="22" lean-forward="true" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -145,8 +153,8 @@
       <file leaf-file-name="hobby_or_serious.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hobby_or_serious.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="36" />
+            <state relative-caret-position="350">
+              <caret line="30" column="61" lean-forward="true" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
               <folding>
                 <element signature="e#18#33#0" expanded="true" />
                 <marker date="1524792611823" expanded="true" signature="195:802" ph="select count... posts" />
@@ -273,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="R.lda_code_text_topics">
+  <component name="RunManager" selected="Python.hobby_or_serious">
     <configuration name="create_documents" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -354,11 +362,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="R.lda_code_text_topics" />
-        <item index="1" class="java.lang.String" itemvalue="Python.create_documents" />
-        <item index="2" class="java.lang.String" itemvalue="Python.lda_test2" />
-        <item index="3" class="java.lang.String" itemvalue="R.LDA" />
-        <item index="4" class="java.lang.String" itemvalue="Python.hobby_or_serious" />
+        <item index="0" class="java.lang.String" itemvalue="Python.hobby_or_serious" />
+        <item index="1" class="java.lang.String" itemvalue="R.lda_code_text_topics" />
+        <item index="2" class="java.lang.String" itemvalue="Python.create_documents" />
+        <item index="3" class="java.lang.String" itemvalue="Python.lda_test2" />
+        <item index="4" class="java.lang.String" itemvalue="R.LDA" />
       </list>
     </recent_temporary>
   </component>
@@ -711,17 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hobby_or_serious.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="36" />
-          <folding>
-            <element signature="e#18#33#0" expanded="true" />
-            <marker date="1524792611823" expanded="true" signature="195:802" ph="select count... posts" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LSI.R">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -748,26 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lda_test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="127" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
-          <folding>
-            <element signature="e#18#37#0" expanded="true" />
-            <marker date="1525266731214" expanded="true" signature="1825:1866" ph="select body posts" />
-            <marker date="1525266731214" expanded="true" signature="3125:3205" ph="SELECT id, t... posts" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LDA.R">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lda_question_concepts.R">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -788,18 +765,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lda_code_text_topics.R">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="52" column="27" lean-forward="true" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lda_question_concepts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="43" lean-forward="false" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+        <state relative-caret-position="306">
+          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
           <folding>
             <element signature="e#18#37#0" expanded="true" />
             <marker date="1524695824597" expanded="true" signature="1350:1390" ph="select body posts" />
@@ -819,6 +788,45 @@
             <marker date="1524695824597" expanded="true" signature="3056:3220" ph="SELECT id, t... posts" />
             <marker date="1524695824597" expanded="true" signature="3270:3397" ph="SELECT id, t... posts" />
             <marker date="1524695824597" expanded="true" signature="3270:3407" ph="SELECT id, t... posts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LDA.R">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="48" column="39" lean-forward="true" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lda_code_text_topics.R">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="63" column="22" lean-forward="true" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hobby_or_serious.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="30" column="61" lean-forward="true" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+          <folding>
+            <element signature="e#18#33#0" expanded="true" />
+            <marker date="1524792611823" expanded="true" signature="195:802" ph="select count... posts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lda_test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="146" column="0" lean-forward="true" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+          <folding>
+            <element signature="e#18#37#0" expanded="true" />
+            <marker date="1525266731214" expanded="true" signature="1825:1866" ph="select body posts" />
+            <marker date="1525266731214" expanded="true" signature="3125:3205" ph="SELECT id, t... posts" />
           </folding>
         </state>
       </provider>
