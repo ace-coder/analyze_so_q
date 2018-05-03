@@ -1,6 +1,6 @@
 This is a term project for the course "Data Mining Applications for Software Engineering"
 #
-The task is to implement the paper #Why, When, and What: Analyzing Stack Overflow Questions by Topic, Type, and Code#
+The task is to implement the paper "Why, When, and What: Analyzing Stack Overflow Questions by Topic, Type, and Code"  
 #  
   
 Developed and maintained by:  
@@ -8,8 +8,8 @@ Md Mainuddin
 FSUID: mm15ar  
 Dept. of Computer Science  
 Florida State University  
-###
-
+###  
+  
 List of files and directories:  
 Directories:
 1. text_files		Text extracted from Stack Overflow questions and answers are stored in this folder.  
